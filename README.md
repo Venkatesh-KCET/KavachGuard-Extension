@@ -77,10 +77,10 @@ The repository contains the following folders:
 
 ## Contributors
 
-- Santhi Priya K (Mentor)
+- Santhi Priya K - *Mentor*
 
 - [Venkatesh S](https://github.com/Venkatesh-KCET)
-- Kannan T
+- [Kannan T](https://github.com/Kannan7122)
 - [Jeevitha Raj D](https://github.com/Jeevith-Raj)
 - [Aravind Narayanan G](https://github.com/aravindnaanaa)
 - [Srinithi S](https://github.com/Iris-adroit)
