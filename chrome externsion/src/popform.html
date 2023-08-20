@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Style the buttons */
+    .button {
+      margin: 5px;
+      padding: 8px 16px;
+      cursor: pointer;
+      border-radius: 4px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .button.green { background-color: #4CAF50; color: white; }
+    .button.red { background-color: #FF5733; color: white; }
+  </style>
+</head>
+<body>
+  <button class="button green" id="safeButton">Safe</button>
+  <button class="button red" id="unsafeButton">Unsafe</button>
+  <script>
+    // src/popup.js
+
+    // Function to handle button clicks
+    function handleButtonClick(buttonType) {
+    // Depending on the button clicked, perform an action
+    if (buttonType === "safe") {
+        // Trigger action for safe button
+        // You can add your own logic here
+        console.log("Safe button clicked");
+    } else if (buttonType === "unsafe") {
+        // Trigger action for unsafe button
+        // You can add your own logic here
+        console.log("Unsafe button clicked");
+    }
+
+    // Redirect to report.php
+    window.location.href = "report.php";
+    }
+
+    // Attach click event listeners to the buttons
+    document.getElementById("safeButton").addEventListener("click", function () {
+    handleButtonClick("safe");
+    });
+
+    document.getElementById("unsafeButton").addEventListener("click", function () {
+    handleButtonClick("unsafe");
+    });
+
+  </script>
+</body>
+</html>
