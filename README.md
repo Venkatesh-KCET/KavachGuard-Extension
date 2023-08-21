@@ -77,7 +77,7 @@ The repository contains the following folders:
 
 ## Contributors
 
-- Santhi Priya K - *Mentor*
+- [Santhi Priya K - Mentor](https://github.com/spbaskaran)
 
 - [Venkatesh S](https://github.com/Venkatesh-KCET)
 - [Kannan T](https://github.com/Kannan7122)
